@@ -35,7 +35,7 @@ resources:
       min_size: 1
       max_size: 3
       resource:
-        type: https://raw.githubusercontent.com/hernantaa/openstack/master/heat/templates/server.yaml
+        type: https://raw.githubusercontent.com/yollagusrianti/openstack/master/server.yaml
         properties:
           flavor: {get_param: flavor}
           image: {get_param: image}
